@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/jdbc?serverTimezone=UTC</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="mybatis@localhost" uuid="7e615a66-d09e-40cf-b4bb-ab9b1d9cf9de">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC</jdbc-url>
+    </data-source>
   </component>
 </project>
