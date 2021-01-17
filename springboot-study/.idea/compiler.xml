@@ -9,6 +9,7 @@
         <module name="boot-04-jdbc" />
         <module name="boot-01-start" />
         <module name="springboot-study" />
+        <module name="boot-06-mail" />
         <module name="boot-05-mybatis" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="boot-01-start" options="-parameters" />
       <module name="boot-04-jdbc" options="-parameters" />
       <module name="boot-05-mybatis" options="-parameters" />
+      <module name="boot-06-mail" options="-parameters" />
     </option>
   </component>
 </project>
